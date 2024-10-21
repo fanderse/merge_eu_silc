@@ -1,9 +1,12 @@
 ################################################################################
 # Merge EU-SILC files. 
-# 
-#
-#
-#
+# program takes paths to files as user input and has the option to
+# add or not add register data, in case storage size matters
+# main function works for both individual and household level data
+# in a last step, composite individual and household level data can
+# be merged into one dataset
+# author: Florian Andersen
+# last updated: Oct 21 2024
 ################################################################################
 
 # only required package
